@@ -1,0 +1,26 @@
+.number-call {
+    color: white;
+}
+.number-call:hover {
+    cursor: pointer;
+}
+
+.floating-left-bottom {
+    position: fixed;
+    z-index: 999;
+    top: 80%;
+    left: -101px;
+}
+
+.float-button {
+   
+       top: 79%;
+    z-index: 99999999999;
+    right: -2px;
+    height: auto;
+    padding: 5px 11px;
+    position: fixed;
+    width: 100px;
+    margin-top: -40px;
+}
+

@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'mail.motoformosa.com.br'),
 
     /*
     |--------------------------------------------------------------------------
@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'no-reply@motoformosa.com.br'),
+        'name' => env('MAIL_FROM_NAME', 'Contato'),
     ],
 
     /*
@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => env('MAIL_USERNAME'),
+    'username' => env('MAIL_USERNAME', 'no-reply@motoformosa.com.br'),
 
-    'password' => env('MAIL_PASSWORD'),
+    'password' => env('MAIL_PASSWORD', 'DX~I6D?Xa~y$'),
 
     /*
     |--------------------------------------------------------------------------
